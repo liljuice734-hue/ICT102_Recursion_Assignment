@@ -1,0 +1,23 @@
+202500305
+FIBONACCI_PSEUDOCODE
+
+BEGIN
+            Read n
+    
+            IF n < 0 THEN
+                PRINT "Error: Position must be non-negative"
+                RETURN
+            END IF
+    
+            IF n = 0 THEN
+                RETURN 0
+            END IF
+    
+            IF n = 1 THEN
+                RETURN 1
+            END IF
+    
+            ELSE
+                RETURN FIB(n - 1) + FIB(n - 2)
+            END ELSE
+END
